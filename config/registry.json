@@ -1,0 +1,62 @@
+{
+  "llm": [
+    { "id": "openai/gpt-4o-mini", "label": "GPT-4o mini", "tier": "저", "price": "약 $0.002/대본", "note": "기본·빠름·저렴 (권장)" },
+    { "id": "google/gemini-2.5-flash-lite", "label": "Gemini 2.5 Flash Lite", "tier": "저", "price": "약 $0.001/대본", "note": "최저가·초고속" },
+    { "id": "google/gemini-2.5-flash", "label": "Gemini 2.5 Flash", "tier": "중", "price": "약 $0.003/대본", "note": "최신 구글·가성비" },
+    { "id": "google/gemini-flash-1.5", "label": "Gemini 1.5 Flash", "tier": "중", "price": "약 $0.002/대본", "note": "안정적 대안" },
+    { "id": "anthropic/claude-haiku-4.5", "label": "Claude Haiku 4.5", "tier": "중", "price": "약 $0.01/대본", "note": "클로드 빠름·자연스런 한국어" },
+    { "id": "openai/gpt-4o", "label": "GPT-4o", "tier": "고", "price": "약 $0.02/대본", "note": "고품질 카피" },
+    { "id": "openai/gpt-4.1", "label": "GPT-4.1", "tier": "고", "price": "약 $0.02/대본", "note": "정교한 지시 준수" },
+    { "id": "anthropic/claude-sonnet-4.5", "label": "Claude Sonnet 4.5", "tier": "최고", "price": "약 $0.05/대본", "note": "최고급 한국어 카피" },
+    { "id": "google/gemini-2.5-pro", "label": "Gemini 2.5 Pro", "tier": "최고", "price": "약 $0.03/대본", "note": "구글 최상위 추론" },
+    { "id": "hf:Qwen/Qwen2.5-7B-Instruct", "label": "[무료] Qwen2.5 7B (HF)", "tier": "저", "price": "무료(HF)", "note": "허깅페이스 무료·한국어 양호 (테스트용)" },
+    { "id": "hf:meta-llama/Llama-3.2-3B-Instruct", "label": "[무료] Llama 3.2 3B (HF)", "tier": "저", "price": "무료(HF)", "note": "허깅페이스 무료·빠름 (테스트용, 게이트 모델은 승인 필요)" },
+    { "id": "hf:mistralai/Mistral-7B-Instruct-v0.3", "label": "[무료] Mistral 7B (HF)", "tier": "저", "price": "무료(HF)", "note": "허깅페이스 무료 대안 (테스트용)" }
+  ],
+  "image": [
+    { "id": "fal-ai/flux/schnell", "label": "FLUX schnell", "tier": "저", "price": "약 $0.003/장", "note": "가장 빠르고 저렴 (권장 기본)" },
+    { "id": "fal-ai/flux/dev", "label": "FLUX dev", "tier": "중", "price": "약 $0.025/장", "note": "품질/속도 균형" },
+    { "id": "fal-ai/bytedance/seedream/v3/text-to-image", "label": "Seedream 3.0", "tier": "중", "price": "약 $0.03/장", "note": "바이트댄스·인물/장면 강함" },
+    { "id": "fal-ai/imagen4/preview", "label": "Google Imagen 4", "tier": "고", "price": "약 $0.04/장", "note": "구글 최신·사실적" },
+    { "id": "fal-ai/recraft-v3", "label": "Recraft V3", "tier": "고", "price": "약 $0.04/장", "note": "디자인·아트 스타일 강함" },
+    { "id": "fal-ai/flux-pro/v1.1", "label": "FLUX1.1 pro", "tier": "고", "price": "약 $0.04/장", "note": "고품질 사실적" },
+    { "id": "fal-ai/nano-banana", "label": "Nano-Banana 1 (Gemini 2.5 Flash)", "tier": "고", "price": "약 $0.039/장", "note": "구글 Gemini 이미지 1세대 · 한글 글자 깨짐" },
+    { "id": "fal-ai/nano-banana-2", "label": "Nano-Banana 2 (Gemini 3.1 Flash)", "tier": "고", "price": "약 $0.04/장", "note": "구글 최신 플래시 · 한글 단/중 라벨 OK" },
+    { "id": "fal-ai/nano-banana-pro", "label": "Nano-Banana Pro (Gemini 3 Pro)", "tier": "최고", "price": "약 $0.12/장", "note": "구글 최상위 · 한글 글자 안전(검증됨)" },
+    { "id": "fal-ai/bytedance/seedream/v4/text-to-image", "label": "Seedream 4.0 (바이트댄스)", "tier": "고", "price": "약 $0.03/장", "note": "바이트댄스 최신 이미지·고품질 사실적" },
+    { "id": "fal-ai/ideogram/v2", "label": "Ideogram V2", "tier": "고", "price": "약 $0.08/장", "note": "구도·타이포 강함" },
+    { "id": "openai/gpt-image-2", "label": "GPT Image 2 (ChatGPT Images 2.0)", "tier": "최고", "price": "약 $0.01~0.41/장", "note": "오픈AI 최신·사실감·글자 렌더 정확 (느림)" },
+    { "id": "fal-ai/ideogram/v3", "label": "Ideogram V3", "tier": "최고", "price": "약 $0.09/장", "note": "이데오그램 최상위" },
+    { "id": "fal-ai/flux-pro/v1.1-ultra", "label": "FLUX1.1 pro Ultra", "tier": "최고", "price": "약 $0.06/장", "note": "초고해상·최고 디테일" },
+    { "id": "hf:black-forest-labs/FLUX.1-schnell", "label": "[무료] FLUX.1 schnell (HF)", "tier": "저", "price": "무료(HF)", "note": "허깅페이스 무료·빠름 (테스트용)" },
+    { "id": "hf:stabilityai/stable-diffusion-xl-base-1.0", "label": "[무료] SDXL (HF)", "tier": "저", "price": "무료(HF)", "note": "허깅페이스 무료 대안 (테스트용)" }
+  ],
+  "edit": [
+    { "id": "fal-ai/nano-banana/edit", "label": "Nano-Banana 1 edit (권장)", "tier": "고", "price": "약 $0.039/장", "note": "사진 속 대상 유지·자연스런 합성" },
+    { "id": "fal-ai/nano-banana-2/edit", "label": "Nano-Banana 2 edit (Gemini 3.1)", "tier": "고", "price": "약 $0.04/장", "note": "최신 플래시 편집 · 대상 유지 개선" },
+    { "id": "fal-ai/nano-banana-pro/edit", "label": "Nano-Banana Pro edit (Gemini 3 Pro)", "tier": "최고", "price": "약 $0.12/장", "note": "구글 최상위 편집 · 최고 품질 앵커링" },
+    { "id": "fal-ai/flux-pro/kontext", "label": "FLUX Kontext", "tier": "고", "price": "약 $0.04/장", "note": "정밀 편집·구도 유지" },
+    { "id": "fal-ai/bytedance/seededit/v3/edit-image", "label": "SeedEdit 3.0", "tier": "중", "price": "약 $0.03/장", "note": "가성비 이미지 편집" },
+    { "id": "fal-ai/flux-pro/kontext/max", "label": "FLUX Kontext Max", "tier": "최고", "price": "약 $0.08/장", "note": "최고 품질 편집" },
+    { "id": "openai/gpt-image-2/edit", "label": "GPT Image 2 edit (ChatGPT Images 2.0)", "tier": "최고", "price": "약 $0.01~0.41/장", "note": "오픈AI 최신 편집·최고 품질 (매우 느림 약 2분/장)" }
+  ],
+  "video": [
+    { "id": "fal-ai/wan-i2v", "label": "WAN i2v", "tier": "저", "price": "약 $0.20/5초", "usd": 0.2, "baseSec": 5, "note": "가장 저렴한 모션 (권장 기본)", "queue": true },
+    { "id": "fal-ai/bytedance/seedance/v1/lite/image-to-video", "label": "Seedance 1.0 Lite i2v", "tier": "저", "price": "약 $0.18/5초", "usd": 0.18, "baseSec": 5, "note": "바이트댄스·가성비 모션", "queue": true },
+    { "id": "fal-ai/bytedance/seedance/v1/pro/image-to-video", "label": "Seedance 1.0 Pro i2v", "tier": "고", "price": "약 $0.62/5초", "usd": 0.62, "baseSec": 5, "note": "바이트댄스 고품질 자연 모션", "queue": true },
+    { "id": "fal-ai/kling-video/v1.6/standard/image-to-video", "label": "Kling 1.6 standard i2v", "tier": "저", "price": "약 $0.25/5초", "usd": 0.25, "baseSec": 5, "note": "저가·안정적", "queue": true },
+    { "id": "fal-ai/wan/v2.2-a14b/image-to-video", "label": "WAN 2.2 i2v", "tier": "중", "price": "약 $0.25/5초", "usd": 0.25, "baseSec": 5, "note": "개선된 WAN", "queue": true },
+    { "id": "fal-ai/pixverse/v4.5/image-to-video", "label": "PixVerse 4.5 i2v", "tier": "중", "price": "약 $0.20/5초", "usd": 0.2, "baseSec": 5, "note": "빠른 스타일 모션", "queue": true },
+    { "id": "fal-ai/minimax/hailuo-02/standard/image-to-video", "label": "Hailuo 02 i2v", "tier": "중", "price": "약 $0.28/6초", "usd": 0.28, "baseSec": 6, "note": "미니맥스·부드러운 모션", "queue": true },
+    { "id": "fal-ai/kling-video/v2.5-turbo/pro/image-to-video", "label": "Kling 2.5 turbo pro i2v", "tier": "고", "price": "약 $0.35/5초", "usd": 0.35, "baseSec": 5, "note": "가성비 프로급", "queue": true },
+    { "id": "fal-ai/luma-dream-machine/ray-2/image-to-video", "label": "Luma Ray-2 i2v", "tier": "고", "price": "약 $0.5/5초", "usd": 0.5, "baseSec": 5, "note": "루마·시네마틱", "queue": true },
+    { "id": "fal-ai/kling-video/v2/master/image-to-video", "label": "Kling 2 master i2v", "tier": "고", "price": "약 $1.4/5초", "usd": 1.4, "baseSec": 5, "note": "고품질 자연 모션", "queue": true },
+    { "id": "fal-ai/kling-video/v2.1/master/image-to-video", "label": "Kling 2.1 master i2v", "tier": "고", "price": "약 $1.4/5초", "usd": 1.4, "baseSec": 5, "note": "클링 마스터 개선", "queue": true },
+    { "id": "fal-ai/veo3/fast/image-to-video", "label": "Veo3 fast i2v", "tier": "고", "price": "약 $1.2/8초", "usd": 1.2, "baseSec": 8, "note": "구글 Veo3·빠른판 (자체 음성)", "queue": true },
+    { "id": "fal-ai/veo3/image-to-video", "label": "Veo3 i2v (최고급)", "tier": "최고", "price": "약 $3.0/8초", "usd": 3.0, "baseSec": 8, "note": "구글 Veo3 최고 품질 (자체 음성)", "queue": true }
+  ],
+  "tts": [
+    { "id": "fal-ai/elevenlabs/tts/multilingual-v2", "label": "ElevenLabs Multilingual v2 (권장)", "tier": "최고", "price": "약 $0.18/1천자", "note": "최고급 자연 음성·한국어 멀티링구얼" },
+    { "id": "fal-ai/elevenlabs/tts/turbo-v2.5", "label": "ElevenLabs Turbo v2.5", "tier": "고", "price": "약 $0.10/1천자", "note": "일레븐랩스·빠름·저지연" }
+  ]
+}
