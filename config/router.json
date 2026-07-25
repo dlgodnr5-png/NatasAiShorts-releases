@@ -1,0 +1,31 @@
+{
+  "video": {
+    "audio": ["fal-ai/veo3/fast/image-to-video", "fal-ai/veo3/image-to-video"],
+    "Ultra": ["fal-ai/veo3/image-to-video", "fal-ai/kling-video/v2.1/master/image-to-video"],
+    "Pro": ["fal-ai/veo3/fast/image-to-video", "fal-ai/kling-video/v2.5-turbo/pro/image-to-video"],
+    "Standard": ["fal-ai/bytedance/seedance/v1/pro/image-to-video", "fal-ai/wan/v2.2-a14b/image-to-video"],
+    "Fast": ["fal-ai/wan-i2v", "fal-ai/bytedance/seedance/v1/lite/image-to-video"]
+  },
+  "image": {
+    "Ultra": ["fal-ai/nano-banana-pro", "fal-ai/flux-pro/v1.1-ultra"],
+    "Pro": ["fal-ai/nano-banana-2", "fal-ai/flux-pro/v1.1"],
+    "Standard": ["fal-ai/flux/dev", "fal-ai/bytedance/seedream/v4/text-to-image"],
+    "Fast": ["fal-ai/flux/schnell"]
+  },
+  "edit": {
+    "Ultra": ["fal-ai/nano-banana-pro/edit", "fal-ai/flux-pro/kontext/max"],
+    "Pro": ["fal-ai/nano-banana-2/edit", "fal-ai/nano-banana/edit"],
+    "Standard": ["fal-ai/nano-banana/edit", "fal-ai/bytedance/seededit/v3/edit-image"],
+    "Fast": ["fal-ai/bytedance/seededit/v3/edit-image"]
+  },
+  "llm": {
+    "Ultra": ["anthropic/claude-sonnet-4.5", "google/gemini-2.5-pro"],
+    "Pro": ["openai/gpt-4o", "anthropic/claude-haiku-4.5"],
+    "Standard": ["google/gemini-2.5-flash", "openai/gpt-4o-mini"],
+    "Fast": ["openai/gpt-4o-mini", "google/gemini-2.5-flash-lite"]
+  },
+  "tts": {
+    "Ultra": ["fal-ai/elevenlabs/tts/multilingual-v2"],
+    "Fast": ["fal-ai/elevenlabs/tts/turbo-v2.5"]
+  }
+}
