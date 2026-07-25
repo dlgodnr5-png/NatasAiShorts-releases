@@ -1,0 +1,15 @@
+{
+  "fal-ai/wan-i2v": { "frames": { "min": 81, "max": 100, "fps": 16 }, "aspect": true, "resolution": "720p" },
+  "fal-ai/bytedance/seedance/v1/lite/image-to-video": { "durations": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], "durationFmt": "num", "aspect": true, "resolution": "720p" },
+  "fal-ai/bytedance/seedance/v1/pro/image-to-video": { "durations": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], "durationFmt": "num", "aspect": true, "resolution": "1080p" },
+  "fal-ai/kling-video/v1.6/standard/image-to-video": { "durations": [5, 10], "durationFmt": "num" },
+  "fal-ai/wan/v2.2-a14b/image-to-video": { "frames": { "min": 17, "max": 161, "fps": 16 }, "aspect": true, "resolution": "720p" },
+  "fal-ai/pixverse/v4.5/image-to-video": { "durations": [5, 8], "durationFmt": "num", "resolution": "720p" },
+  "fal-ai/minimax/hailuo-02/standard/image-to-video": { "durations": [6, 10], "durationFmt": "num", "resolution": "768P" },
+  "fal-ai/kling-video/v2.5-turbo/pro/image-to-video": { "durations": [5, 10], "durationFmt": "num" },
+  "fal-ai/luma-dream-machine/ray-2/image-to-video": { "durations": [5, 9], "durationFmt": "sec", "aspect": true, "resolution": "720p" },
+  "fal-ai/kling-video/v2/master/image-to-video": { "durations": [5, 10], "durationFmt": "num" },
+  "fal-ai/kling-video/v2.1/master/image-to-video": { "durations": [5, 10], "durationFmt": "num" },
+  "fal-ai/veo3/fast/image-to-video": { "durations": [4, 6, 8], "durationFmt": "sec", "aspect": true, "resolution": "720p", "audioOffParam": "generate_audio" },
+  "fal-ai/veo3/image-to-video": { "durations": [4, 6, 8], "durationFmt": "sec", "aspect": true, "resolution": "720p", "audioOffParam": "generate_audio" }
+}
