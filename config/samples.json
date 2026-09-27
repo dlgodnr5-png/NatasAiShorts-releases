@@ -1,0 +1,12 @@
+{
+  "updated": "2026-09-27",
+  "note": "품질 모드 샘플 — 같은 주제(마늘)를 모드별로 만든 10초 영상. 구글 경로(Gemini 이미지·TTS·Veo)로 제작",
+  "samples": [
+    { "tier": "basic", "title": "가장 가볍고 빠르게", "video": "https://raw.githubusercontent.com/dlgodnr5-png/NatasAiShorts-releases/main/samples/shorts-basic.mp4", "poster": "https://raw.githubusercontent.com/dlgodnr5-png/NatasAiShorts-releases/main/samples/shorts-basic.jpg",
+      "desc": "Gemini Flash Lite 이미지 · Flash Lite 음성 · Veo 3.1 Lite 영상 — 무료 한도 안에서 가장 부담 없는 조합" },
+    { "tier": "high", "title": "품질·속도 균형", "video": "https://raw.githubusercontent.com/dlgodnr5-png/NatasAiShorts-releases/main/samples/shorts-high.mp4", "poster": "https://raw.githubusercontent.com/dlgodnr5-png/NatasAiShorts-releases/main/samples/shorts-high.jpg",
+      "desc": "Gemini Flash 이미지 · Flash 음성 · Veo 3.1 Fast 영상 — 대부분의 영상에 권장" },
+    { "tier": "best", "title": "최고 품질", "video": "https://raw.githubusercontent.com/dlgodnr5-png/NatasAiShorts-releases/main/samples/shorts-best.mp4", "poster": "https://raw.githubusercontent.com/dlgodnr5-png/NatasAiShorts-releases/main/samples/shorts-best.jpg",
+      "desc": "Gemini 3 Pro 이미지(2K) · Flash 음성 · Veo 3.1 영상 — 질감·빛이 가장 좋다. 시간이 더 걸린다" }
+  ]
+}
